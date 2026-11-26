@@ -65,6 +65,10 @@ Gamepad Monitor adds itself to HidHide's allow-list automatically, so hidden con
 - **Bluetooth PlayStation rumble:** the first rumble command switches a Bluetooth DualShock 4 / DualSense into its "extended" mode. Until you turn the controller off and on, games that read it through plain DirectInput may stop seeing its buttons; Steam and DS4Windows are fine. The app warns you before the first time.
 - **Different USB port = new device.** Windows remembers *disabled* per USB port or Bluetooth pairing. Plugging a disabled pad into a different port can make it show up as a new, enabled device.
 
+## For AI coding agents
+
+If you are an AI agent (Claude Code, Codex, Copilot, Cursor, etc.) working on this repository, **read [AGENTS.md](AGENTS.md) first**. It covers the project layout, build and verification steps, code conventions and the safety rules you must follow.
+
 ## Build from source
 
 You need the [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0).
