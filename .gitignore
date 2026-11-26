@@ -1,0 +1,16 @@
+# Build output
+bin/
+obj/
+dist/
+GamepadMonitor-release/
+*.pdb
+
+# IDE / user files
+.vs/
+.vscode/
+*.user
+*.suo
+.idea/
+
+# Diagnostics reports
+report*.txt

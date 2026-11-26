@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <AssemblyName>GamepadMonitor</AssemblyName>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <Product>Gamepad Monitor</Product>
+    <Version>1.0.0</Version>
+    <Authors>Kudoshi</Authors>
+    <Copyright>Copyright (c) 2026 Kudoshi</Copyright>
+    <Description>Monitor, test and enable/disable game controllers on Windows.</Description>
+    <AssemblyTitle>Gamepad Monitor</AssemblyTitle>
+    <RootNamespace>GamepadMonitor</RootNamespace>
+    <Platforms>x64</Platforms>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+  </PropertyGroup>
+
+</Project>
