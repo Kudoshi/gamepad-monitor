@@ -70,7 +70,7 @@ Gamepad Monitor adds itself to HidHide's allow-list automatically, so hidden con
 You need the [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0).
 
 ```powershell
-git clone https://github.com/<your-account>/gamepad-monitor.git
+git clone https://github.com/Kudoshi/gamepad-monitor.git
 cd gamepad-monitor\GamepadMonitor
 dotnet run -c Release
 ```
